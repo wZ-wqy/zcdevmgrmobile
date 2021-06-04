@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["uview-ui/components/u-grid-item/u-grid-item"],{"2f45":function(t,e,n){},7473:function(t,e,n){"use strict";var r;n.d(e,"b",(function(){return i})),n.d(e,"c",(function(){return u})),n.d(e,"a",(function(){return r}));var i=function(){var t=this,e=t.$createElement;t._self._c},u=[]},a3ea:function(t,e,n){"use strict";n.r(e);var r=n("7473"),i=n("e87e");for(var u in i)"default"!==u&&function(t){n.d(e,t,(function(){return i[t]}))}(u);n("bcfb");var c,a=n("f0c5"),o=Object(a["a"])(i["default"],r["b"],r["c"],!1,null,"d0bc5a7c",null,!1,r["a"],c);e["default"]=o.exports},b6b6:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var r={name:"u-grid-item",props:{bgColor:{type:String,default:"#ffffff"},index:{type:[Number,String],default:""},customStyle:{type:Object,default:function(){return{padding:"30rpx 0"}}}},data:function(){return{hoverClass:"",col:1,showBorder:!1}},created:function(){this.parent=!1},computed:{width:function(){return 100/Number(this.col)+"%"}},methods:{click:function(){this.$emit("click",this.index),this.parent&&this.parent.click(this.index)}},mounted:function(){this.parent=this.$u.$parent.call(this,"u-grid"),this.parent&&(this.col=this.parent.col,this.showBorder=this.parent.border,this.hoverClass=this.parent.hoverClass)}};e.default=r},bcfb:function(t,e,n){"use strict";var r=n("2f45"),i=n.n(r);i.a},e87e:function(t,e,n){"use strict";n.r(e);var r=n("b6b6"),i=n.n(r);for(var u in r)"default"!==u&&function(t){n.d(e,t,(function(){return r[t]}))}(u);e["default"]=i.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'uview-ui/components/u-grid-item/u-grid-item-create-component',
+    {
+        'uview-ui/components/u-grid-item/u-grid-item-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("a3ea"))
+        })
+    },
+    [['uview-ui/components/u-grid-item/u-grid-item-create-component']]
+]);

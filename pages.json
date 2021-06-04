@@ -1,0 +1,325 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		//资产管理
+        {
+            "path" : "pages/login/index",
+           "style": {
+           	"navigationBarTitleText": ""
+           }
+        } 
+		,{
+		    "path" : "pages/report/index",
+		    "style": {
+		   	"navigationBarTitleText": "报表展示"
+		   }
+		} 
+		,{
+		    "path" : "pages/assets/index",
+		    "style": {
+		   	"navigationBarTitleText": "资产管理"
+		   }
+		} 
+        ,{
+            "path" : "pages/my/index",
+			  "style": {
+				"navigationBarTitleText": ""
+			 
+			  }
+        } ,{
+            "path" : "pages/my/about/about",
+			  "style": {
+				"navigationBarTitleText": "关于我们"
+			  }
+        }
+        ,{
+            "path" : "pages/assets/search/search",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/search/index",
+            "style" : {	
+						"navigationStyle": "custom", // 隐藏系统导航栏
+						"navigationBarTextStyle": "white" // 状态栏字体为白色
+			}
+			 
+        }
+        ,{
+            "path" : "pages/assets/zcdetail/zcdetail",
+            "style" : {	"navigationBarTitleText": "资产详情"}
+        }
+        ,{
+            "path" : "pages/assets/discernment/discernment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资产识别",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/assets/inspection/inspection",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "资产巡检",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		 
+        ,{
+            "path" : "pages/my/myassets/myassets",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的资产",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/reply/reply",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/my/changepwd/changepwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }   
+        }
+        ,{
+            "path" : "pages/my/agreement/agreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户协议",
+                "enablePullDownRefresh": false
+            }   
+        } ,{
+            "path" : "pages/assets/inventory/inventory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资产盘点",
+                "enablePullDownRefresh": false
+            }   
+        }
+      
+        ,{
+            "path" : "pages/assets/report/report",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/repair/repair",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的报修",
+                "enablePullDownRefresh": false
+            }
+            
+        } ,{
+            "path" : "pages/assets/repair/repair",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资产报修",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assets/report/usedpart/usedpart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "使用部门",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assets/report/belongcomp/belongcomp",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "所属公司",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assets/report/usedcomp/usedcomp",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "使用公司",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assets/report/zccategory/zccategory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "资产分类报表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assets/collect/collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "领用",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assets/borrow/borrow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "借用",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assets/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assets/apply/apply",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "申请",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/assets/scrap/scrap",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "报废",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		
+		
+        ,{
+            "path" : "pages/assets/collect/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增领用",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myborrow/myborrow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的借用",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/common/searchassets/searchassets",
+             "style" : {
+           			"navigationStyle": "custom", // 隐藏系统导航栏
+           			"navigationBarTextStyle": "white" // 状态栏字体为白色
+           }
+            
+        }
+        ,{
+            "path" : "pages/assets/borrow/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增借用",
+                "enablePullDownRefresh": false
+            }
+            
+        } ,{
+            "path" : "pages/assets/inspection/inspect/inspect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "巡检操作",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+         
+        ,{
+            "path" : "pages/assets/inspection/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "单据详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/assets/repair/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报修操作",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/assets/index",
+				"iconPath": "static/icon/home2.png",
+				"selectedIconPath":"static/icon/home2_selected.png",
+				"text": "固资"
+			},
+			// {
+			// 	"pagePath": "pages/assets/index",
+			// 	"iconPath": "static/icon/home2.png",
+			// 	"selectedIconPath":"static/icon/home2_selected.png",
+			// 	"text": "耗材"
+			// },
+			{
+				"pagePath": "pages/search/index",
+				"iconPath": "static/icon/fl.png",
+				"selectedIconPath":"static/icon/fl_selected.png",
+				"text": "搜索"
+			},{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/icon/my.png",
+				"selectedIconPath":"static/icon/my_selected.png",
+				"customIcon": false,
+				"isDot": false,
+				"text": "我的"
+			}
+		]
+	}
+}

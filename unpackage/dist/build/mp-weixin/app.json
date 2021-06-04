@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/report/index",
+    "pages/assets/index",
+    "pages/my/index",
+    "pages/my/about/about",
+    "pages/assets/search/search",
+    "pages/search/index",
+    "pages/assets/zcdetail/zcdetail",
+    "pages/assets/discernment/discernment",
+    "pages/assets/inspection/inspection",
+    "pages/my/myassets/myassets",
+    "pages/my/reply/reply",
+    "pages/my/changepwd/changepwd",
+    "pages/my/agreement/agreement",
+    "pages/assets/inventory/inventory",
+    "pages/assets/report/report",
+    "pages/my/repair/repair",
+    "pages/assets/repair/repair",
+    "pages/assets/report/usedpart/usedpart",
+    "pages/assets/report/belongcomp/belongcomp",
+    "pages/assets/report/usedcomp/usedcomp",
+    "pages/assets/report/zccategory/zccategory",
+    "pages/assets/collect/collect",
+    "pages/assets/borrow/borrow",
+    "pages/assets/add/add",
+    "pages/assets/apply/apply",
+    "pages/assets/scrap/scrap",
+    "pages/assets/collect/add/add",
+    "pages/my/myborrow/myborrow",
+    "pages/common/searchassets/searchassets",
+    "pages/assets/borrow/add/add",
+    "pages/assets/inspection/inspect/inspect",
+    "pages/assets/inspection/detail/detail",
+    "pages/assets/repair/add/add"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uView",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/assets/index",
+        "iconPath": "static/icon/home2.png",
+        "selectedIconPath": "static/icon/home2_selected.png",
+        "text": "固资"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "iconPath": "static/icon/fl.png",
+        "selectedIconPath": "static/icon/fl_selected.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my_selected.png",
+        "customIcon": false,
+        "isDot": false,
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
